@@ -1,0 +1,27 @@
+public class Triangle implements Shape { 
+   private String color; 
+   private int width; 
+   private int length; 
+   private int height; 
+   public Triangle(String color){ 
+	      this.color = color;   
+	   } 
+	 
+	   public void setwidth(int width) { 
+	      this.width = width; 
+	   } 
+	 
+	   public void setlength(int length) { 
+	      this.length = length; 
+	   } 
+	 
+	   public void setheight(int height) { 
+	      this.height = height; 
+	   } 
+	 
+	   @Override 
+	   public void draw() { 
+	      System.out.println("Circle: Draw() [Color : " + color  
+	         +", width : " + width +", length :" + length +", height :" + height); 
+	   } 
+	}
