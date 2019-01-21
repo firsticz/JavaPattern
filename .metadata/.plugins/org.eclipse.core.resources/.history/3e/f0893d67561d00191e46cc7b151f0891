@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+public class StrategyPatternDemo { 
+   public static void main(String[] args) { 
+//      Context context = new Context(new OperationAdd());   
+//      System.out.println("10 + 5 = " + context.executeStrategy(10, 5)); 
+// 
+//      context = new Context(new OperationSubstract());   
+//      System.out.println("10 - 5 = " + context.executeStrategy(10, 5)); 
+// 
+//      context = new Context(new OperationMultiply());   
+//      System.out.println("10 * 5 = " + context.executeStrategy(10, 5)); 
+//      
+//      context = new Context(new OperationRound());   
+//      System.out.println("10 * 4 = " + context.executeStrategy(10, 4)); 
+	   Context context = new Context(new OperationAdd());
+	   System.out.print("How much Operation:");
+	   Scanner in = new Scanner(System.in);
+	   int op = in.nextInt();
+	   
+	   switch(op) {
+	   case 1 :
+		   System.out.println("Enter num");
+		   int num1 = in.nextInt();
+		   System.out.println("Enter operation");
+		   String operation = in.next();
+		   System.out.println("Enter num");
+		   int num2 = in.nextInt();
+		   
+		   System.out.println(num1+" "+operation+" "+num2+" = " + context.executeStrategy(num1,num2));
+		   break;
+	   case 2:
+	   }
+	   
+   } 
+   
+   
+   public Context TypeContext(String operation) {
+	   if(operation.equals("+"))
+		   context = new Context(new OperationAdd());
+	   else if(operation.equals("-"))
+		   context = new Context(new OperationSubstract());
+	   else if(operation.equals("*"))
+		   context = new Context(new OperationMultiply());
+	   else if(operation.equals("/"))
+		   context = new Context(new OperationDevide());
+	   else if(operation.equals("//"))
+		   context = new Context(new OperationRound());
+   }
+}

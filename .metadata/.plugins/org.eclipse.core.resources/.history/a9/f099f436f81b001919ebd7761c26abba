@@ -1,0 +1,10 @@
+
+public class ProxyImage {
+
+	private RealImage realImage; 
+	   private String fileName; 
+	 
+	   public ProxyImage(String fileName){ 
+	      this.fileName = fileName; 
+	   }
+}

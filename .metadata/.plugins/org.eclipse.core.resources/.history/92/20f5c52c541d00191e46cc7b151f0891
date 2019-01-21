@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class StrategyPatternDemo { 
+   public static void main(String[] args) { 
+//      Context context = new Context(new OperationAdd());   
+//      System.out.println("10 + 5 = " + context.executeStrategy(10, 5)); 
+// 
+//      context = new Context(new OperationSubstract());   
+//      System.out.println("10 - 5 = " + context.executeStrategy(10, 5)); 
+// 
+//      context = new Context(new OperationMultiply());   
+//      System.out.println("10 * 5 = " + context.executeStrategy(10, 5)); 
+//      
+//      context = new Context(new OperationRound());   
+//      System.out.println("10 * 4 = " + context.executeStrategy(10, 4)); 
+	   int count =0;
+	   System.out.print("How much Operation:");
+	   Scanner in = new Scanner(System.in);
+	   int op = in.nextInt();
+	   for(int i=0;i<=op;i++) {
+		   
+	   }
+	   
+   } 
+}

@@ -1,0 +1,5 @@
+
+public class OrExpression implements Expression {
+	private Expression expr1 = null; 
+	private Expression expr2 = null; 
+}

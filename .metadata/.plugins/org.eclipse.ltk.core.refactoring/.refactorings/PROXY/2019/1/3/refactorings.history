@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;Proxy_new/src&apos;&#x0D;&#x0A;- Original project: &apos;PROXY&apos;&#x0D;&#x0A;- Destination element: &apos;Proxy_new/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Image.java&#x0D;&#x0A;     ProxyImage.java&#x0D;&#x0A;     ProxyPatternDemo.java&#x0D;&#x0A;     RealImage.java" description="Copy compilation units" destination="=Proxy_new/src" element1="/src&lt;{Image.java" element2="/src&lt;{ProxyImage.java" element3="/src&lt;{ProxyPatternDemo.java" element4="/src&lt;{RealImage.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1547915166095" units="4" version="1.0"/>
+</session>
